@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    margin: auto;
+    margin-top: 50px;
+    width: 600px;
+    background-color: cadetblue;
+}
+
+div.form-group:first-child{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 12px;
+}
+
