@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
 form{
-    margin: auto;
+    margin: 0 auto;
     margin-top: 50px;
     width: 600px;
     background-color: cadetblue;
@@ -17,3 +22,66 @@ div.form-group:first-child{
     padding-top: 12px;
 }
 
+giv.form-group > label, div.form-group > input{
+    display: block;
+    margin-bottom: 12px;
+}
+
+input{
+    padding: 6px 3px;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+/* Azul inicial */
+/* Verde al pasar el cursor */
+button{
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(52, 130, 219); 
+    color: rgb(3, 3, 3);
+    padding: 10px 20px;
+    border: 1px solid rgb(120, 42, 165);
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease color 3s border 3s;
+}
+
+.boton:hover{
+    background-color: #cc7a2e;
+    color: ivory;
+    border: 1px solid rgb(42, 151, 165);
+    transition: background-color 8s color 8s border 8s;
+}
+
+.todo:has(input[type="checkbox"]:checked){
+    background-color: cadetblue;
+    border: 2px solid rgb(128, 0, 60);
+}
+
+.form-group{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-group>input{
+    display: inline-block;
+    width: 90%;
+    padding: 6px 3px;
+}
+
+.form-group>label{
+    display: block;
+    margin-bottom: 12px;
+}
+
+input:invalid{
+    border: 2px solid rgb(0, 4, 255);
+    background-color: rgb(26, 174, 179);
+}
+
+input[type="email"]:valid{
+    border: 2px solid rgb(6, 80, 28);
+    background-color: rgb(2, 255, 14);
+}
