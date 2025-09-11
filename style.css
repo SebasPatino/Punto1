@@ -22,7 +22,7 @@ div.form-group:first-child{
     padding-top: 12px;
 }
 
-giv.form-group > label, div.form-group > input{
+div.form-group > label, div.form-group > input{
     display: block;
     margin-bottom: 12px;
 }
@@ -85,3 +85,4 @@ input[type="email"]:valid{
     border: 2px solid rgb(6, 80, 28);
     background-color: rgb(2, 255, 14);
 }
+
