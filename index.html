@@ -6,10 +6,43 @@
     <title>Trabajo</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="modo oscuro">
+    <nav class="menú principal">
+        <ul>
+            <li>
+                <a href="#inicio">INICIO</a>
+            </li>
+
+            <li>
+                <a href="#servicios">SERVICIOS</a>
+            </li>
+
+            <li>
+                <a href="#contacto">CONTACTO</a>
+            </li>
+
+            <li>
+                <a href="sobre nosotros">SOBRE NOSOTROS</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="card-entrada">
+        <h2>TARJETA INFORMATIVA</h2>
+        <P>Centro Industrial de Mantenimiento Integral</P>
+    </div>
         <div class="envolvente"></div>
+            <div class="imagen random">
+                <img src="RESOURCES/SENA.jpg" alt="CIMI">
+            </div>
+            <div class="campo icono">
+                <input type="text" aria-label="buscar contenido">
+            </div>
             <form action="">
                 <h1>DATOS BÁSICOS</h1>
+                <div class="contenedor cajas">
+                    <div class="caja roja">Caja atrás</div>
+                    <div class="caja verde">Caja adelante</div>
+                </div>
 
                 <div class="form-group">
                     <label for="nombre">Nombre:</label>
@@ -46,14 +79,24 @@
                 <div class="form-group">
                     <label for="guardar">Seleccione si quiere continuar</label>
                     <input type="checkbox" id="guardar" required>
-                </div>
-                <a href="#mensaje" class="boton">Mostrar mensaje</a>
-
-                <div id="mensaje" class="mensaje">
-                ¡GRACIAS POR VER!
-                </div>
+               
                 <div>
                     <button class="boton">Guardar</button>
+                </div>
+
+                <div class="envolvente">
+                    <p class="info">Por favor diligenciar todos los datos</p>
+                    <p class="info">Este formulario no será usado para compartir información sin consentimiento</p>
+                    <p class="info">Es de uso personal y transparente</p>
+                </div>
+
+                <button class="btn-sombra">Mostrar más</button>
+
+                <blockquote class="bienestar">Visitanos en caso de que tengas alguna queja</blockquote>
+
+                <div class="tarjeta">
+                    <button class="btn-eliminar">X</button>
+                    <p>Eliminar</p>
                 </div>
             </form>
         </div>    

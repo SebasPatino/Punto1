@@ -86,3 +86,39 @@ input[type="email"]:valid{
     background-color: rgb(2, 255, 14);
 }
 
+input:focus {
+    border: 2px solid rgb(207, 16, 16);
+    outline: none;
+    background-color: rgb(66, 155, 44);
+    transition: border 0.3s ease;
+    background-color: 0.3s ease;
+}
+
+input[type="email"]:only-of-type{
+    border: 2px dashed green;
+    background-color: blueviolet;
+    color:rgb(255, 145, 2)
+}
+
+div.form-group:first-of-type{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 12px;
+    color:rgb(40, 121, 110);
+    background-color: blanchedalmond;
+}
+
+:root{
+    --color-primario: rgb(0, 0, 0);
+    --color-fondo: rgb(45, 24, 165);
+    --color-texto: #222222;
+    --color-primario: rgb(30, 172, 197);
+    --color-secundario: #f0f0f0;
+}
+
+nav.menu-principal{
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
